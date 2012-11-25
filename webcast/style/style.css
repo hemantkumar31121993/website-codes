@@ -1,0 +1,237 @@
+/* font family Ubuntu Light */
+@font-face {
+	font-family:ubuntulight;
+	src: url("Ubuntu-L.eot");
+}
+
+@font-face {
+	font-family:ubuntulight;
+	src : url("Ubuntu-L.ttf");
+}
+
+@font-face {
+	font-family:sverigs;
+	src:url("Sverigs.eot");
+}
+
+@font-face {
+	font-family:sverigs;
+	src:url("Sverigs.ttf");
+}
+/* welcome animation */
+
+.animation {
+	font-family:sverigs;
+	font-size:100px;
+	text-align:center;
+	vertical-align:center;
+}
+
+
+
+
+/* main classes */
+.body {
+	position:relative;
+	margin:0px auto auto auto;
+	width:960px;
+	font-family:"ubuntulight",Arial;
+	font-size:20px;
+}
+.hemant {
+	position:relative;
+	margin:0px auto auto auto;
+	width:630px;
+}
+.kumar {
+	position:relative;
+	margin:0px auto auto auto;
+	width:630px;
+}
+.tabs {
+	position:relative;
+	margin:10px auto auto auto;
+	width:830px;
+	padding:10px;
+}
+
+
+/*home page post */
+.homeposteven {
+	position:relative;
+	margin:30px auto auto auto;
+	width:800px;
+	padding:20px;
+	border-left:5px solid #2e0054;
+	border-top: 1px solid #2e0054;
+	line-height:30px;
+}
+
+.homepostodd {
+	position:relative;
+	margin:30px auto auto auto;
+	width:800px;
+	padding:20px;
+	border-right:5px solid #2e0054;
+	border-top:1px solid #2e0054;
+	line-height:30px;
+}
+
+/* profile page posts */
+.profile {
+	position:relative;
+	margin:30px auto auto auto;
+	width:800px;
+	padding:20px;
+	border-left:5px solid #ff4b00;
+	border-top:1px solid #ff4b00;
+}
+.profile td {
+	padding:10px;
+}
+.profile img {
+	border-left:5px solid #ff4b00;
+	position:relative;
+	height:160px;
+	width:120px;
+	margin:0px 0px auto auto;
+}
+.personal {
+
+}
+.first {
+	width:150px;
+}
+.institute {
+	width:460px;
+}
+/* gallery page */
+.gallery {
+	position:relative;
+	width:800px;
+	margin:20px auto auto auto;
+}
+.gallery table {
+	position:relative;
+	margin:0px auto auto auto;
+	width:800px;
+}
+.gallery td {
+	padding:10px;
+	vertical-align:top;
+}
+.photopost {
+	position:relative;
+	margin:0px auto auto auto;
+	width:320px;
+	font-size:16px;
+	padding:10px;
+	border:1px solid #00a92f;
+}
+.tape {
+	position:relative;
+	margin:0px 120px;
+	
+	width:67px;
+	height:19px;
+	opacity:0.8;
+	z-index:2;
+	
+}
+.photo {
+	position:relative;
+	margin:-15px auto auto auto;
+	width:320px;
+	height:240px;
+}
+.caption {
+	position:relative;
+	margin:0px auto auto auto;
+	padding:10px;
+}
+
+/* links page */
+.link {
+	position:relative;
+	margin:10px auto auto auto;
+	width:600px;
+	height:100px;
+	border-left:5px solid #00a8ff;
+	padding-left:20px;
+}
+.link img {
+	position:relative;
+	margin:-80px 0px;
+	width:75px;
+	height:100px;
+}
+.title {
+	position:relative;
+	margin:-20px 0px auto  auto;
+	width:500px;
+}
+.desc {
+	position:relative;
+	margin:0px 0px auto auto;
+	width:500px;
+	font-size:14px;
+}
+
+/* contacts page*/
+
+.contacts {
+	position:relative;
+	margin:30px auto auto auto;
+	width:780px;
+	border-left:5px solid #de5d17;
+	padding-left:30px;
+	line-height:40px;
+}
+
+/* credits page*/
+.credits {
+	position:relative;
+	margin:10px auto auto auto;
+	width:630px;
+	height:100px;
+	/*border-left:5px solid #00cbc8;*/
+	padding:20px;
+}
+.credits img {
+	position:relative;
+	margin:-80px 0px;
+	width:100px;
+	height:100px;
+}
+.to {
+	position:relative;
+	margin:-20px 0px auto  auto;
+	width:500px;
+}
+.for {
+	position:relative;
+	margin:0px 0px auto auto;
+	width:500px;
+	font-size:14px;
+}
+
+/* ohers */
+.timestamp {
+	font-size:14px;
+	color:#bfbfbf;
+}
+.copyright {
+	position:relative;
+	margin:80px auto auto 0px;
+	text-align:center;
+	font-size:18px;
+	width:960px;
+	color:#ffffff;
+}
+/* anchor */
+a {
+	text-decoration:none;
+	color:#000000;
+}
+
+

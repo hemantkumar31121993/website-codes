@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Credits-HemantKumar</title>
+	<link rel="stylesheet" href="style/style.css">
+	<script src="script/linkover.js"></script>
+	<style>
+		.body {
+			border-left:1px dashed #00cbc8;
+			border-right:1px dashed #00cbc8;
+		}
+		.copyright {
+			background:#00cbc8;
+		}
+	</style>
+</head>
+
+<body>
+	<div class=body>
+		<div class=hemant>
+			<img src="name/h.png" alt="h" />
+			<img src="name/e.png" alt="e" />
+			<img src="name/m.png" alt="m" />
+			<img src="name/a.png" alt="a" />
+			<img src="name/n.png" alt="n" />
+			<img src="name/t.png" alt="t" />
+		</div>
+		<div class=kumar>
+			<img src="name/k.png" alt="k" />
+			<img src="name/u.png" alt="u" />
+			<img src="name/m1.png" alt="m1" />
+			<img src="name/a1.png" alt="a1" />
+			<img src="name/r.png" alt="r" />
+			<img src="name/idiot.gif" alt="idiot" />
+		</div>
+		<div class=tabs>
+			<img src="tabs/homelow.png" alt="home" onclick="go(this)" onmouseover="change(this)" onmouseout="restore(this)" />
+			&nbsp;<img src="tabs/profilelow.png" alt="profile" onclick="go(this)" onmouseover="change(this)" onmouseout="restore(this)"/>
+			&nbsp;<img src="tabs/gallerylow.png" alt="gallery" onclick="go(this)" onmouseover="change(this)" onmouseout="restore(this)"/>
+			&nbsp;<img src="tabs/linkslow.png" alt="links" onclick="go(this)" onmouseover="change(this)" onmouseout="restore(this)"/>
+			&nbsp;<img src="tabs/contactslow.png" alt="contacts" onclick="go(this)" onmouseover="change(this)" onmouseout="restore(this)"/>
+			&nbsp;<img src="tabs/creditshigh.png" alt="credits" />
+		</div>
+		
+		<br><br>
+		
+		<div class=credits>
+			<img src="images/ubuntu.png">
+			<div id="to">Ubuntu</div>
+			<div id="for">Ubuntu provides the open Ubuntu true type fonts. In this site I used Ubuntu true type and light font for dislplay.
+			This website is fully developed on system running Ubuntu 12.04 Precise Pangoline.
+			</div>
+		</div>
+		<br>
+		<div class=credits>
+			<img src="images/gimp.png">
+			<div id="to">GNU Image Manipulation Program</div>
+			<div id="for">all the graphical part of this website is designed fully in GIMP 2.6.12. All the images in this website is edited with GIMP
+			and converted to png and gif formats .
+			</div>
+		</div>
+		<br>
+		<div class=credits>
+			<img src="images/bauri.png" style="height:133px">
+			<div id="to">Sujeet Bauri</div>
+			<div id="for">My friend who helped me a lot to design this website. He is the excellent guy with sound knowledge in his field and 
+			also a good engineering student. He is from Bokaro Steel City and is one of my fast friends in NITC.
+			</div>
+		</div>
+		
+		<div class=copyright>
+		Copyright © 2012 Hemant Kumar  The source of this site is published under GNU GPL v2.0
+		</div>
+		
+	</div>
+</body>
+
+</html>
