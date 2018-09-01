@@ -315,3 +315,15 @@ table.two-part tr td {
 .last-section {
 	padding-bottom:40px;
 }
+
+.text-right {
+	text-align: right;
+}
+
+.full-width {
+	width:100%;
+}
+
+.cv-header > table {
+	cell-spacing:0px;
+}
