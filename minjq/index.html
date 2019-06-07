@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="display-ui.css" >
+    </head>
+<head>
+    <title>Display.js</title>
+</head>
+<body>
+    <form id="data" style="display: none" title="The model dialog box">
+        <input type="text" value="username">
+        <br>
+        <input type="text" value="password">
+    </form>
+    <button onclick="opendialog()">Open</button>
+</body>
+<script src="dialog.js"></script>
+<script>
+    function opendialog() {
+    var p = new Dialog("#data");
+    var d = p.dialog(
+        200, 
+        400, 
+        {
+            "save": function() {
+                console.log("save clicked");
+            },
+            "another": function() {
+                console.log("nopthe");
+            },
+            "close": function() {
+                d.close();
+            }
+        },
+        function() {
+            console.log("close happened");
+        }
+    );
+    d.open();
+    }
+</script>
+</html>

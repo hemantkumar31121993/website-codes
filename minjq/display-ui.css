@@ -1,0 +1,28 @@
+.dialog {
+    background: #ffffff;
+    border:1px solid #000000;
+}
+
+.dialog-header {
+    background: #dfdfdf;
+    padding: 10px;
+}
+
+.dialog-body {
+    padding: 10px;
+}
+
+.dialog-buttons {
+    padding: 5px;
+    margin-bottom: 0px;
+    background: #dfdfdf;
+}
+
+.dialog-close {
+    width:20px;
+    height:20px;
+    margin-top: auto;
+    background: #FF0000;
+    border-radius: 5px;
+    float: right;
+}
