@@ -13,7 +13,6 @@ function Dialog(arg) { //support only one element at time
         var style = `width:${width}px;margin:${top}px auto; z-index:999;`;
         bigdiv.setAttribute("style", style);
         bigdiv.className = "dialog";
-        console.log(style);
 
         var headdiv = document.createElement("div");
         headdiv.className = "dialog-header";
@@ -29,7 +28,7 @@ function Dialog(arg) { //support only one element at time
         clsbtn.className = "dialog-close";
         headdiv.innerText = self.title;
         headdiv.appendChild(clsbtn);
-        clsbtn.addEventListener("onclick", close);
+        clsbtn.addEventListener("click", close);
 
         function open () {
             self.style.display = "unset";

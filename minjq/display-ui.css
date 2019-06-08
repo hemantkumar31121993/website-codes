@@ -23,6 +23,20 @@
     height:20px;
     margin-top: auto;
     background: #FF0000;
+    background: linear-gradient(45deg, transparent 45%,
+        #d00 45%,
+        #d00 55%,
+        transparent 55%),
+    linear-gradient(135deg, transparent 45%,
+        #d00 45%,
+        #d00 55%,
+        transparent 55%),
+    linear-gradient(#ffffff,#ffffff);
     border-radius: 5px;
     float: right;
+    opacity: 0.8;
+}
+
+.dialog-close:hover {
+    opacity: 1;
 }

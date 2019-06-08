@@ -8,9 +8,9 @@
 </head>
 <body>
     <form id="data" style="display: none" title="The model dialog box">
-        <input type="text" value="username">
+        <input type="text" id="username" value="username">
         <br>
-        <input type="text" value="password">
+        <input type="text" id="password" value="password">
     </form>
     <button onclick="opendialog()">Open</button>
 </body>
@@ -19,20 +19,24 @@
     function opendialog() {
     var p = new Dialog("#data");
     var d = p.dialog(
-        200, 
-        400, 
-        {
-            "save": function() {
+        200, //height
+        400, //width
+        {   // buttons list
+            "Save": function() {
                 console.log("save clicked");
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+                console.log(username, password);
             },
-            "another": function() {
-                console.log("nopthe");
+            "Reset": function() {
+                document.getElementById("username").value = "";
+                document.getElementById("password").value = "";
             },
-            "close": function() {
+            "Close": function() {
                 d.close();
             }
         },
-        function() {
+        function() { // close function
             console.log("close happened");
         }
     );
